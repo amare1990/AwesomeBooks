@@ -7,7 +7,7 @@
 }
 
 .wrapper {
-  width: 600px;
+  padding: 0 5px;
   margin: 50px auto;
   display: flex;
   flex-direction: column;
@@ -37,17 +37,44 @@ header {
 .menus {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .menu-item {
   list-style: none;
-  padding-right: 5px;
+  width: 65px;
+}
+
+.menu-item-link,
+.logo-link {
+  color: #333;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 700;
   width: auto;
 }
 
-.menu-item-link {
-  color: #333;
-  text-decoration: none;
+.hor-line {
+  width: 2px;
+  height: 20px;
+  background-color: rgb(35, 39, 41);
+  margin-right: 15px;
+}
+
+.time {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.book-list-section {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap:5px;
 }
 
 .input-field {
@@ -56,13 +83,40 @@ header {
   gap: 10px;
 }
 
+.add-new-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+.btn-div {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
 .add-btn {
-  float: right;
+  border: 2px solid #444;
+  background-color: #fff;
+}
+
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-type {
+  list-style: disc;
+  margin-left: 50px;
 }
 
 .book-from-storage {
   padding: 2px 5px;
-  width: 500px;
+  width: 100%;
   border: 2px solid black;
 }
 
@@ -93,4 +147,17 @@ h3 {
 .active {
   color: blue;
   font-weight: 700;
+}
+
+footer {
+  width: 100%;
+  border: 2px solid #333;
+}
+
+.copy-right {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
 }
