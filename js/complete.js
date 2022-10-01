@@ -1,3 +1,4 @@
+/* eslint-disable rule-you-want-to-disable */
 window.onload = () => {
   const addBtn = document.querySelector('.add-btn');
   class Book {
@@ -68,20 +69,17 @@ window.onload = () => {
     document.querySelector('.title').value = '';
     document.querySelector('.author').value = '';
   });
-
 }; // End of Window onload event
 
-
-// Links 
+// Links
 const bookListLink = document.querySelector('.list-anchor');
 const addBookLink = document.querySelector('.add-new-anchor');
 const contactLink = document.querySelector('.contact-anchor');
 
-//Section
+// Section
 const bookList = document.querySelector('.book-list-section');
 const addBook = document.querySelector('.add-new-section');
 const contactUs = document.querySelector('.contact-section');
-
 
 bookListLink.addEventListener('click', () => {
   bookList.classList.remove('hidden');
