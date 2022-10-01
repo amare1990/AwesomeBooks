@@ -5,8 +5,9 @@ window.onload = () => {
   function showTime() {
     setInterval(() => {
       const date = new Date().toUTCString();
-      time.innerHTML = date; }, 1000);
-  };
+      time.innerHTML = date;
+    }, 1000);
+  }
 
   showTime();
 
