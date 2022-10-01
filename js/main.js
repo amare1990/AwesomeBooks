@@ -1,3 +1,4 @@
+/* eslint-disable rule-you-want-to-disable */
 window.onload = () => {
   const addBtn = document.querySelector('.add-btn');
   class Book {
