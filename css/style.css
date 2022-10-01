@@ -19,6 +19,7 @@
 header {
   width: 100%;
 }
+
 .menu-bar {
   width: 100%;
   padding: 3px;
@@ -26,11 +27,11 @@ header {
   justify-content: space-between;
   align-items: center;
   border: 2px solid #444;
+  border: 1px solid #333;
 }
 
 .logo {
   width: 100%;
-  border: 1px solid #333;
 }
 
 .menus {
@@ -40,6 +41,8 @@ header {
 
 .menu-item {
   list-style: none;
+  padding-right: 5px;
+  width: auto;
 }
 
 .menu-item-link {
@@ -81,5 +84,14 @@ header {
 }
 
 h3 {
+  font-weight: 700;
+}
+
+.hidden {
+  display: none;
+}
+
+.active {
+  color: blue;
   font-weight: 700;
 }
