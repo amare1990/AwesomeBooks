@@ -2,7 +2,7 @@
 
 # Awesome Books
 
-> This project is the development of web applications for books. It has the functionality to add and remove the book from both the desktop screen and the localStorage object, used by the browser to store key/pair data. Most of the tasks as required by the Microverse project requirement are done using JavaScript script. Additional features on this project has been added to differ from the previous ones. The project requires to implement it using JS classes. In addition, it requires some styling to be added using CSS styles.
+> The aim of  project is the development of web applications for books. It has the functionality to add and remove the book from both the desktop screen and the localStorage object, used by the browser to store key/pair data. Most of the tasks as required by the Microverse project requirement are done using JavaScript script. Additional features on this project has been added to differ from the previous ones. The project requires to implement it using JS classes. In addition, it requires some styling to be added using CSS styles.
 
 
 ## Built With
@@ -19,25 +19,9 @@
 **git clone https://github.com/amare1990/AwesomeBooks.git**
 
 
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
-
 ## Authors
 
-👤 **Author1**
+👤 **Amare Kassa**
 
 - GitHub: [@githubhandle](https://github.com/amare1990)
 - Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
