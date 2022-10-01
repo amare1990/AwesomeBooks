@@ -1,5 +1,15 @@
 window.onload = () => {
   const addBtn = document.querySelector('.add-btn');
+
+  const time = document.querySelector('.time');
+  function showTime() {
+    setInterval(() => {
+      const date = new Date().toUTCString();
+      time.innerHTML = date; }, 1000);
+  };
+
+  showTime();
+
   class Book {
     constructor(title, author) {
       this.title = title;
