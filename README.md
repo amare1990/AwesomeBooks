@@ -2,26 +2,27 @@
 
 # Awesome Books
 
-> The aim of  project is the development of web applications for books. It has the functionality to add and remove the book from both the desktop screen and the localStorage object, used by the browser to store key/pair data. Most of the tasks as required by the Microverse project requirement are done using JavaScript script. Additional features on this project has been added to differ from the previous ones. The project requires to implement it using JS classes. In addition, it requires some styling to be added using CSS styles.
+> This project provides functionalities to see the list of books, add new books , remove nooks and see the contact section for the owner of the book.
 
 
 ## Built With
 
-- Major languages: HTML, CSS, JavaScript
-- Frameworks: No frameworks used
-- Technologies used: git, github, git flows, VS code editor
+- Major languages: HTML< CSS, JavaScript>
+- Frameworks: No frameworks used.
+- Technologies used: gitflow, git, github, VS code
+
 
 
 ## Getting Started
 
-**You can clone from my github link and freely modify it.**
-**Use the following command to clone the repository.**
-**git clone https://github.com/amare1990/AwesomeBooks.git**
+**you can clonde the repo, modify it and add contributions.**
+**Yo can clone it using the fomllowing command: git clone https://github.com/amare1990/Awesome -Books**
+
 
 
 ## Authors
 
-👤 **Amare Kassa**
+👤 **Author1**
 
 - GitHub: [@githubhandle](https://github.com/amare1990)
 - Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
@@ -51,4 +52,5 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT/https://github.com/amare1990/AwesomeBooks](./LICENSE) licensed.
+This project is [MIT](./LICENSE) licensed.
+
