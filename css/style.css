@@ -28,5 +28,31 @@
 }
 
 .add-btn {
-  align-self: right;
+  float: right;
+}
+
+.book-from-storage {
+  padding: 2px 5px;
+  width: 500px;
+  border: 2px solid black;
+}
+
+.popped-books {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.popped-books:nth-child(odd){
+  background-color: #eee;
+}
+
+.popped-books .remove-btn {
+  border: 2px solid #567;
+  margin-bottom: 2px;
+}
+
+h3 {
+  font-weight: 700;
 }
