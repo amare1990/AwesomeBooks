@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  width: 500px;
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.hor-line {
+  width: 50px;
+  height: 2px;
+  background-color: #555;
+}
+
+.input-field {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.add-btn {
+  float: right;
+}
+
+.book-from-storage {
+  padding: 2px 5px;
+  width: 500px;
+  border: 2px solid black;
+}
+
+.popped-books {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.popped-books:nth-child(odd) {
+  background-color: #eee;
+}
+
+.popped-books .remove-btn {
+  border: 2px solid #567;
+  margin-bottom: 2px;
+}
+
+h3 {
+  font-weight: 700;
+}
