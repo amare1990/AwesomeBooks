@@ -6,13 +6,12 @@
 
 .wrapper {
   width: 500px;
-  margin:  50px auto;
+  margin: 50px auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 10px;
-  
 }
 
 .hor-line {
@@ -44,7 +43,7 @@
   align-items: center;
 }
 
-.popped-books:nth-child(odd){
+.popped-books:nth-child(odd) {
   background-color: #eee;
 }
 
