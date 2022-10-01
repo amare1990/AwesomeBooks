@@ -19,25 +19,9 @@
 **git clone https://github.com/amare1990/AwesomeBooks.git**
 
 
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
-
 ## Authors
 
-👤 **Author1**
+👤 **Amare Kassa**
 
 - GitHub: [@githubhandle](https://github.com/amare1990)
 - Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
